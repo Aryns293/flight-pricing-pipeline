@@ -7,7 +7,7 @@ st.set_page_config(page_title="Flight Data Analytics", layout="wide")
 st.title("✈️ Flight Pricing Data Analytics")
 st.markdown("This dashboard connects to a FastAPI backend that queries a SQLite database and runs ML models.")
 
-API_URL = "http://localhost:8000"
+API_URL = "https://flight-pricing-pipeline.onrender.com"
 
 st.header("1. Historical Pricing by Airline")
 if st.button("Fetch Airline Averages"):
